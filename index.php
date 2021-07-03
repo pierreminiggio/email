@@ -48,7 +48,7 @@ if (isset($_SESSION['message'])) {
     <form style="margin-top: 100px;" action="/submit.php" method="POST">
         <div class="row">
             <div class="input-field col s12 m8 offset-m2 l6 offset-l3 xl4 offset-xl4">
-                <input placeholder="Placeholder" id="email" name="email" type="email" class="validate">
+                <input placeholder="Email" id="email" name="email" type="email" class="validate">
                 <label for="email">Email où envoyer les notifications</label>
             </div>
 
@@ -60,6 +60,9 @@ if (isset($_SESSION['message'])) {
                 <button style="margin-top: 50px;" class="btn waves-effect waves-light col s12 m8 offset-m2 l6 offset-l3 xl4 offset-xl4" name="submit" type="submit" name="action">
                     S'inscrire <i class="material-icons right">send</i>
                 </button>
+                <div class="col s12 m8 offset-m2 l6 offset-l3 xl4 offset-xl4" style="text-align: center;">
+                    <p>Si tu souhaites me contacter par mail, tu peux le faire ici : <a href="mailto:pierre@miniggiodev.fr">pierre@miniggiodev.fr</a></p>
+                </div>
             </div>
         </div>
     </form>
