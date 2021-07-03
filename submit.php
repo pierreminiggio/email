@@ -8,27 +8,7 @@ use PierreMiniggio\DatabaseFetcher\DatabaseFetcher;
 
 session_start();
 
-function redirectToform(): void
-{
-    header('Location: /');
-    exit;
-}
-
-function redirectToformWithMessage(string $messageType, string $message): void
-{
-    $_SESSION['message'] = ['type' => $messageType, 'content' => $message];
-    redirectToform();
-}
-
-function redirectToformWithErrorMessage(string $message): void
-{
-    redirectToformWithMessage('error', $message);
-}
-
-function redirectToformWithSuccessMessage(string $message): void
-{
-    redirectToformWithMessage('success', $message);
-}
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'functions.php';
 
 if (! isset($_POST['submit'])) {
     redirectToform();
