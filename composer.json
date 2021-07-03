@@ -1,0 +1,7 @@
+{
+    "require": {
+        "pierreminiggio/database-fetcher": "^1.0",
+        "pierreminiggio/config-provider": "^1.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
