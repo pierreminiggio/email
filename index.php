@@ -55,7 +55,7 @@ if (isset($_SESSION['message'])) {
             <div class="row">
                 <label class="col s12 m8 offset-m2 l6 offset-l3 xl4 offset-xl4">
                     <input type="checkbox" class="filled-in" checked="checked" name="consent" />
-                    <span>J'accepte que Pierre utilise mon email pour m'envoyer des notifications sur la sortie des nouvelles vidéos ou bien d'autres information en rapport avec la chaîne.</span>
+                    <span>J'accepte que Pierre utilise mon email pour m'envoyer des notifications sur la sortie des nouvelles vidéos ou bien d'autres informations en rapport avec la chaîne.</span>
                 </label>
                 <button style="margin-top: 50px;" class="btn waves-effect waves-light col s12 m8 offset-m2 l6 offset-l3 xl4 offset-xl4" name="submit" type="submit" name="action">
                     S'inscrire <i class="material-icons right">send</i>
